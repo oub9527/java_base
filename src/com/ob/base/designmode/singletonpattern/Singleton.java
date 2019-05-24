@@ -3,7 +3,7 @@ package com.ob.base.designmode.singletonpattern;
 /**
  * @Author: oubin
  * @Date: 2019/5/24 08:50
- * @Description:
+ * @Description: 单例模式
  */
 public class Singleton {
 
