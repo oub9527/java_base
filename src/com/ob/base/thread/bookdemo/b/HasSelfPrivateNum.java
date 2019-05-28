@@ -8,7 +8,7 @@ package com.ob.base.thread.bookdemo.b;
 public class HasSelfPrivateNum {
 
     /**
-     * 如果是实例变量，会存在线程不安全的问题
+     * 如果是实例变量，会存在线程不安全的问题，解决方法为加上synchronized
      */
     private int num;
 
