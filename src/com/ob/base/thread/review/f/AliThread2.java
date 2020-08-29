@@ -34,7 +34,7 @@ public class AliThread2 {
 
 
     public static void parseLog(String log) throws InterruptedException {
-        System.out.println(log + ":" + System.currentTimeMillis() / 1000);
+        System.out.println(log + ":" + System.currentTimeMillis() / 1000 + " Thread Name : " + Thread.currentThread().getName());
         Thread.sleep(1000);
     }
 }
